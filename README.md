@@ -29,4 +29,4 @@ I would say the most important Method is the search_for method. With it, you can
 api.search_for("John Kennedy") # search the default content endpoint for "John Kennedy", returns a search class (explained later)
 ```
 
-For more Documentation and Examples, visit [https://github.com/skriptum/zeit]
+For more documentation, look at the docs
