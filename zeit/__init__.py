@@ -324,5 +324,8 @@ class Article():
         date = pd.to_datetime(date)
         return date
 
+    def get_raw(self):
+        return self.response
+
 
 # %%

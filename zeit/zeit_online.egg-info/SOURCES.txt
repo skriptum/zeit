@@ -1,0 +1,6 @@
+pyproject.toml
+setup.cfg
+zeit_online.egg-info/PKG-INFO
+zeit_online.egg-info/SOURCES.txt
+zeit_online.egg-info/dependency_links.txt
+zeit_online.egg-info/top_level.txt
