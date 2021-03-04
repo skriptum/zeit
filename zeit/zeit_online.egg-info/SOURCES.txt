@@ -1,6 +1,9 @@
 README.md
 pyproject.toml
 setup.cfg
+setup.py
+zeit/__init__.py
+zeit/zeit.py
 zeit_online.egg-info/PKG-INFO
 zeit_online.egg-info/SOURCES.txt
 zeit_online.egg-info/dependency_links.txt

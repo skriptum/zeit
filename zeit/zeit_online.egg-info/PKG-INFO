@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: zeit-online
-Version: 0.0.1
+Version: 0.0.4
 Summary: A Python Wrapper for the Zeit Online Content API
 Home-page: https://github.com/skriptum/zeit
 Author: Marten Walk
@@ -39,7 +39,7 @@ Description: # Zeit Online API in Python
         api.search_for("John Kennedy") # search the default content endpoint for "John Kennedy", returns a search class (explained later)
         ```
         
-        For more Documentation and Examples, visit [https://github.com/skriptum/zeit]
+        For more Documentation and Examples, visit [the github repo](https://github.com/skriptum/zeit)
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
