@@ -7,8 +7,9 @@ There are also a bunch of other classes defined in the zeit-online package, most
 | [**Overview**](index.md)                      |
 | [**API Documentation**](api.md)               |
 | [**Article Documentation**](article.md)       |
-| [**Other Classes Documentation**](classes.md) |
+| **Other Classes Documentation**               |
 | [**complete Documentation**](docs.md)         |
+| [**Jupyter Example Notebooks**](notebooks.md) |
 
 ## Search
 

@@ -6,9 +6,10 @@ The article Class is another central Class of the zeit-online package and allows
 | --------------------------------------------- |
 | [**Overview**](index.md)                      |
 | [**API Documentation**](api.md)               |
-| [**Article Documentation**](article.md)       |
+| **Article Documentation**                     |
 | [**Other Classes Documentation**](classes.md) |
 | [**complete Documentation**](docs.md)         |
+| [**Jupyter Example Notebooks**](notebooks.md) |
 
 ### Initilization
 

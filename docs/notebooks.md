@@ -1,0 +1,24 @@
+# Jupyter Notebooks
+
+To better understand everything, a jupyter Notebook always helps. In these Notebooks, I tried to make it understandable how to interact with the package and the API
+
+| More Information                              |
+| --------------------------------------------- |
+| [**Overview**](index.md)                      |
+| [**API Documentation**](api.md)               |
+| [**Article Documentation**](article.md)       |
+| [**Other Classes Documentation**](classes.md) |
+| [**complete Documentation**](docs.md)         |
+| **Jupyter Example Notebooks**                 |
+
+### Notebook on the API
+
+[Link to Jupyter.org](https://github.com/skriptum/zeit/blob/master/docs/notebooks/api.ipynb)
+
+This notebook explains the usage of the API Class, similar to the description in the Docs 
+
+### Notebook on the Article Class
+
+[Link to Jupyter.org](https://nbviewer.jupyter.org/github/skriptum/zeit/blob/master/docs/notebooks/article.ipynb)
+
+This one explains the usage of the article Class and possible methods to use with it

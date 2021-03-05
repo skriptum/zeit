@@ -8,7 +8,8 @@
 | [**API Documentation**](api.md)               |
 | [**Article Documentation**](article.md)       |
 | [**Other Classes Documentation**](classes.md) |
-| [**complete Documentation**](docs.md)         |
+| **complete Documentation**                    |
+| [**Jupyter Example Notebooks**](notebooks.md) |
 
 ## API 
 

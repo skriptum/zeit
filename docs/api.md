@@ -5,10 +5,11 @@ the API is the central class of the zeit-online package. Via it, you interact wi
 | More Information                              |
 | --------------------------------------------- |
 | [**Overview**](index.md)                      |
-| [**API Documentation**](api.md)               |
+| **API Documentation**                         |
 | [**Article Documentation**](article.md)       |
 | [**Other Classes Documentation**](classes.md) |
 | [**complete Documentation**](docs.md)         |
+| [**Jupyter Example Notebooks**](notebooks.md) |
 
 ### Initialize and set token
 

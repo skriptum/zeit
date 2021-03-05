@@ -10,11 +10,12 @@ Developed by *Marten Walk*, view my [Github-Profile](https://github.com/skriptum
 
 | More Information                              |
 | --------------------------------------------- |
-| [**Overview**](index.md)                      |
+| **Overview**                                  |
 | [**API Documentation**](api.md)               |
 | [**Article Documentation**](article.md)       |
 | [**Other Classes Documentation**](classes.md) |
 | [**complete Documentation**](docs.md)         |
+| [**Jupyter Example Notebooks**](notebooks.md) |
 
 # Setup
 
