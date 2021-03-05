@@ -1,5 +1,7 @@
 
 
+# Overview over all Classes and methods
+
 ## API 
 
 self.base_url = the url of the zeit api
@@ -29,9 +31,40 @@ self.token = the current API Key given by the user
 
 ### search_for(search_string, search_type = "content", limit = 10, time_range = False, facet_time = False)
 
+
+
+## Article
+self.title
+self.href
+self.text
+self.id
+self.supertitle
+self.uri
+
+### get_keywords()
+
+### get_authors()
+
+### get_date()
+
+### get_raw()
+
+
+
 ## Client
 
-self.name = your name
+self.name = your name 
+self.email = your email
+self.reset = the reset time
+self.api_key = your key
+self.requests = your requests already made
+self.quota = your quote, normally 10.000
+
+### requests_left()
+
+### reset_time()
+
+
 
 ## Search
 
@@ -50,13 +83,17 @@ self.matches = the raw json matches
 
 ### get_raw()
 
+
+
 ## Keyword
+
 self.name = the name of the keyword
 self.uri = the Identifier used for example by get_keyword()
 self.lexical = the lexical representation of the keyword
 self.score = a internal keyword score of the API, based on frequency
 self.type = the type of the Keyword, one of "organization", "person", "location"
-self.matches
+self.matches = the articles
+self.found = the number of articles found with the keyword
 
 ### get_articles()
 
@@ -68,17 +105,25 @@ self.matches
 
 ### get_raw()
 
-## Article
-self.title
-self.href
-self.text
-self.id
-self.supertitle
 
-### get_keyowrds
 
-### get_authors
+## Department
 
-### get_date
+self.name = the name of the department
+self.uri = the Identifier 
+self.parent= the parent, if it has one
+self.href = the link to the department on Zeit Online
+self.found =  the number of articles linked to the department
+self.matches = the articles
+
+### get_articles()
+
+### set_facets()
+
+### get_facets()
+
+### has_facets()
 
 ### get_raw()
+
+### has_parent()

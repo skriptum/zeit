@@ -6,6 +6,8 @@ For an overview of the API, view the original [Docs](http://developer.zeit.de/do
 
 For all of this to work, you need an API-Key from their developer team, get one by writing a mail to [api@zeit.de](mailto:api@zeit.de). Be nice and state your intention.
 
+Developed by *Marten Walk*, view my [Github-Profile](https://github.com/skriptum) for more info or drop me a mail at [kkx@protonmail.com](mailto:kkx@protonmail.com). 
+
 # Setup
 
 you can install the package with [pip](https://pypi.org/project/pip/) from PYPI, the python package Index.
@@ -122,14 +124,12 @@ More Information about the **API** can be found [here](api.md) , definitely take
 
 More Information about the **Article Class** can be found [here](article.md)
 
-If you want to know about all other Classes, look [here](classes.md)
-
-And if you need a **complete overview** over all methods and attributes, look no further than [this](docs.md)
+If you want to know about all other Classes, look [here](classes.md)docs.md)
 
 
 
 If there are questions left: contact me at [kkx@protonmail.com](mailto:kkx@protonmail.com)
 
-©made by Marten Walk
+© made by Marten Walk
 
  
