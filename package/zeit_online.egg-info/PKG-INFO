@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: zeit-online
-Version: 0.0.4
+Version: 0.1
 Summary: A Python Wrapper for the Zeit Online Content API
 Home-page: https://github.com/skriptum/zeit
 Author: Marten Walk
@@ -16,18 +16,34 @@ Description: # Zeit Online API in Python
         
         For all of this to work, you need an API-Key from their developer team, get one by writing a mail to [api@zeit.de](mailto:api@zeit.de). Be nice and state your intention.
         
-        # Documentation
+        # Setup
         
-        ## API 
-        This is the central class of the API. To use all functions of it, initialize a class and set your API-Key.
+        you can install the package with [pip](https://pypi.org/project/pip/) from PYPI, the python package Index.
         
-        ```python
-        #Example Initiliaztion of class
-        api = zeit.API()
-        api.set_token("API-Key") # copy your key in here
+        ```bash
+        pip install zeit-online
         ```
         
-        Now you have many different methods at your hands to interact with the API. A simple one is the get_status method to check your client
+        To import the package into your file just run this simple command
+        
+        ```python
+        import zeit
+        ```
+        
+        To get started with interacting with the API, you need to initiate a API-Instance and set your API-Key you got from the developers
+        
+        ```python
+        api = API()
+        api.set_token("API-KEY") #put your key in here
+        ```
+        
+        
+        
+        # Examples
+        
+        Now you have many different methods at your hands to interact with the API. Look at the full documentation to see everything.
+        
+        A simple method is the get_status method to check the status of your connection
         
         ```python
         api.get_status() #returns "everything ok" if it works
@@ -36,10 +52,14 @@ Description: # Zeit Online API in Python
         I would say the most important Method is the search_for method. With it, you can search all endpoints in the API for a specified string.
         
         ```python
-        api.search_for("John Kennedy") # search the default content endpoint for "John Kennedy", returns a search class (explained later)
+        api.search_for("John Kennedy") # search the default content endpoint for "John Kennedy", returns a search class
         ```
         
-        For more Documentation and Examples, visit [the github repo](https://github.com/skriptum/zeit)
+        For more documentation, look at the docs and the example Notebook
+        
+        ©made by Marten Walk
+        
+         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License

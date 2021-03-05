@@ -1,13 +1,21 @@
 
+
 ## API 
-self.base_url = the url of the zeit api, currently [http://api.zeit.de], used because of a possible change in the future
+
+self.base_url = the url of the zeit api
 self.token = the current API Key given by the user
 
 ### set_token()
 
 ### get_status()
 
+### client()
+
+
+
 ### get(url, limit = 10, seatch = False, time_range = False, fields = False, facet_time = False)
+
+
 
 ### get_article(article_id)
 
@@ -15,10 +23,18 @@ self.token = the current API Key given by the user
 
 ### get_keyword(keyword_id, limit = 1, facet_time = False)
 
+### get_department(department_id, limit = 1)
+
+
+
 ### search_for(search_string, search_type = "content", limit = 10, time_range = False, facet_time = False)
 
+## Client
+
+self.name = your name
 
 ## Search
+
 self.name = The String searched for
 self.found = the number of results found
 self.limit = the given limit of results
