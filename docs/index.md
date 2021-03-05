@@ -8,6 +8,13 @@ For all of this to work, you need an API-Key from their developer team, get one 
 
 Developed by *Marten Walk*, view my [Github-Profile](https://github.com/skriptum) for more info or drop me a mail at [kkx@protonmail.com](mailto:kkx@protonmail.com). 
 
+| More Information                          |
+| ----------------------------------------- |
+| [API Documentation](api.md)               |
+| [Article Documentation](article.md)       |
+| [Other Classes Documentation](classes.md) |
+| [Overview over everything](docs.md)       |
+
 # Setup
 
 you can install the package with [pip](https://pypi.org/project/pip/) from PYPI, the python package Index.
@@ -124,7 +131,7 @@ More Information about the **API** can be found [here](api.md) , definitely take
 
 More Information about the **Article Class** can be found [here](article.md)
 
-If you want to know about all other Classes, look [here](classes.md)docs.md)
+If you want to know about all other Classes, look [here](classes.md)
 
 
 
@@ -133,3 +140,4 @@ If there are questions left: contact me at [kkx@protonmail.com](mailto:kkx@proto
 © made by Marten Walk
 
  
+
