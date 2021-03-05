@@ -2,6 +2,14 @@
 
 The article Class is another central Class of the zeit-online package and allows us to extract a lot of metadate and useful information about an Article. Sadly, Zeit Online does not allow one to get the full Text, just  a teaser text and sometimes a snippet, but we can still get a lot of value from it.
 
+| More Information                              |
+| --------------------------------------------- |
+| [**Overview**](index.md)                      |
+| [**API Documentation**](api.md)               |
+| [**Article Documentation**](article.md)       |
+| [**Other Classes Documentation**](classes.md) |
+| [**complete Documentation**](docs.md)         |
+
 ### Initilization
 
 Normally, you get an Article Class as a Return from a *API.get_article(...)* call, but you can also initiate it yourself, altough rather tedious. After Initilization, the Class has a bunch of different Attributes, for example you can get the Name, title etc.

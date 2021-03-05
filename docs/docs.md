@@ -2,6 +2,14 @@
 
 # Overview over all Classes and methods
 
+| More Information                              |
+| --------------------------------------------- |
+| [**Overview**](index.md)                      |
+| [**API Documentation**](api.md)               |
+| [**Article Documentation**](article.md)       |
+| [**Other Classes Documentation**](classes.md) |
+| [**complete Documentation**](docs.md)         |
+
 ## API 
 
 self.base_url = the url of the zeit api

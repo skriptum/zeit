@@ -8,12 +8,13 @@ For all of this to work, you need an API-Key from their developer team, get one 
 
 Developed by *Marten Walk*, view my [Github-Profile](https://github.com/skriptum) for more info or drop me a mail at [kkx@protonmail.com](mailto:kkx@protonmail.com). 
 
-| More Information                          |
-| ----------------------------------------- |
-| [API Documentation](api.md)               |
-| [Article Documentation](article.md)       |
-| [Other Classes Documentation](classes.md) |
-| [Overview over everything](docs.md)       |
+| More Information                              |
+| --------------------------------------------- |
+| [**Overview**](index.md)                      |
+| [**API Documentation**](api.md)               |
+| [**Article Documentation**](article.md)       |
+| [**Other Classes Documentation**](classes.md) |
+| [**complete Documentation**](docs.md)         |
 
 # Setup
 
@@ -32,7 +33,7 @@ import zeit
 To get started with interacting with the API, you need to initiate a API-Instance and set your API-Key you got from the developers
 
 ```python
-api = API()
+api = zeit.API()
 api.set_token("API-KEY") #put your key in here
 ```
 

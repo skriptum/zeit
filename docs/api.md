@@ -2,6 +2,14 @@
 
 the API is the central class of the zeit-online package. Via it, you interact with the Web-API and have many different methods at hand to get contents of the API
 
+| More Information                              |
+| --------------------------------------------- |
+| [**Overview**](index.md)                      |
+| [**API Documentation**](api.md)               |
+| [**Article Documentation**](article.md)       |
+| [**Other Classes Documentation**](classes.md) |
+| [**complete Documentation**](docs.md)         |
+
 ### Initialize and set token
 
 ```python
