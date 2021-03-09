@@ -68,8 +68,8 @@ class Search(BaseClass):
         self.name = search_term
         self.found = response["found"]
         self.limit = response["limit"]
+        
         self.matches = response["matches"]
-
         self.response = response
     
     def __repr__(self):
@@ -83,7 +83,7 @@ class Search(BaseClass):
 
     def get_matches(self):
         """ get the matches of the search result , returns a dictionary
-        of type {title: (description, match_json) }"""
+        of type {uri: (description, match_json) }"""
         matches = {}
 
         try: 
@@ -124,8 +124,7 @@ class Keyword(BaseClass):
         self.response = response
 
     def __repr__(self):
-        string = f"Keyword: '{self.lexical}' with id '{self.name}' \n,\
-        keyword type: '{self.type}' with score {self.score} and {self.found} matches \n\n\
+        string = f"Keyword: '{self.lexical}' with id '{self.name}', keyword type: '{self.type}' with score {self.score} and {self.found} matches \n\n\
         matches: {self.matches}"
         return string 
 
@@ -168,7 +167,7 @@ class Client():
         self.response = response
 
     def __repr__(self):
-        string = f"Client: Client Name: {self.name} \n \
+        string = f"Client: Name: {self.name} \n \
              Client Key: {self.api_key} "
 
         return string

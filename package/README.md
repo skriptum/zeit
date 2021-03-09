@@ -1,10 +1,12 @@
 # Zeit Online API in Python
 
-A simple Python Wrapper for the [Zeit Online Content API](http://developer.zeit.de/index/), written in python by Marten Walk. Not official from Zeit Online !
+A simple Python Wrapper for the [Zeit Online Content API](http://developer.zeit.de/index/), written in python by Marten Walk. Not official from Zeit Online ! It depends on *pandas* library and *requests* library.
 
 For an overview of the API, view the original [Docs](http://developer.zeit.de/docs/) or try them out in their [explorer](http://developer.zeit.de/explorer/).
 
 For all of this to work, you need an API-Key from their developer team, get one by writing a mail to [api@zeit.de](mailto:api@zeit.de). Be nice and state your intention.
+
+For the Docs to this package, visit [my Documentation](https://skriptum.github.io/zeit/)
 
 # Setup
 
@@ -23,7 +25,7 @@ import zeit
 To get started with interacting with the API, you need to initiate a API-Instance and set your API-Key you got from the developers
 
 ```python
-api = API()
+api = zeit.API()
 api.set_token("API-KEY") #put your key in here
 ```
 
