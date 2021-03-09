@@ -22,3 +22,9 @@ This notebook explains the usage of the API Class, similar to the description in
 [Link to Jupyter.org](https://nbviewer.jupyter.org/github/skriptum/zeit/blob/master/docs/notebooks/article.ipynb)
 
 This one explains the usage of the article Class and possible methods to use with it
+
+### Notebook on other Classes
+
+[Link to Jupyter.org](https://nbviewer.jupyter.org/github/skriptum/zeit/blob/master/docs/notebooks/classes.ipynb)
+
+This notebook explains some other classes of the API and what is possible with them
