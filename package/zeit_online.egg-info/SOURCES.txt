@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+zeit/__init__.py
+zeit/api.py
+zeit/classes.py
+zeit_online.egg-info/PKG-INFO
+zeit_online.egg-info/SOURCES.txt
+zeit_online.egg-info/dependency_links.txt
+zeit_online.egg-info/requires.txt
+zeit_online.egg-info/top_level.txt

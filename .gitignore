@@ -1,0 +1,5 @@
+.ipynb_checkpoints
+venv/
+__pycache__
+.vscode
+.DS_Store
