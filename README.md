@@ -1,3 +1,6 @@
+> **UPDATE: sadly, the ZEIT team have stopped offering the API, so this will not work anymore :(**
+
+
 # Zeit Online API in Python
 <img width="1440" alt="zeit" src="https://user-images.githubusercontent.com/77919093/136674667-cfadc41c-8cd4-4dfc-a059-1b407933543e.png">
 
