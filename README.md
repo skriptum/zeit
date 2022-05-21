@@ -52,6 +52,4 @@ api.search_for("John Kennedy") # search the default content endpoint for "John K
 
 For more documentation, look at the docs and the example Notebook
 
-©made by Marten Walk
-
  
