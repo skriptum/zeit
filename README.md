@@ -4,7 +4,7 @@
 # Zeit Online API in Python
 <img width="1440" alt="zeit" src="https://user-images.githubusercontent.com/77919093/136674667-cfadc41c-8cd4-4dfc-a059-1b407933543e.png">
 
-A simple Python Wrapper for the [Zeit Online Content API](http://developer.zeit.de/index/), written in python by Marten Walk. Not official from Zeit Online !
+A simple Python Wrapper for the [Zeit Online Content API](http://developer.zeit.de/index/), written in python. Not official from Zeit Online !
 
 For an overview of the API, view the original [Docs](http://developer.zeit.de/docs/) or try them out in their [explorer](http://developer.zeit.de/explorer/).
 my [Post](https://skriptum.github.io/blog/projects/2021/03/01/zeit-api.html) with more infos.
